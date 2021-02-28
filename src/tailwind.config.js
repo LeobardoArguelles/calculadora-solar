@@ -10,6 +10,16 @@ module.exports = {
         '6xl': '4rem',
         '7xl': '5rem',
       },
+      colors: {
+        main: {
+          yellow: '#F0D041',
+          red: '#FA9E00',
+          DEFAULT: '#FF680D',
+        },
+        darkbrown: {
+          DEFAULT: '#240400',
+        }
+      },
     },
   },
   variants: {
