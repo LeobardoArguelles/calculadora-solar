@@ -2,6 +2,10 @@ module.exports = {
   purge: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    stroke: theme => ({
+      'darkIndigo': theme('colors.indigo.900'),
+      'darkRed': theme('colors.red.900')
+    }),
     extend: {
       fontSize: {
         '3xl': '1.875rem',
@@ -23,7 +27,9 @@ module.exports = {
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      stroke: ['hover'],
+    },
   },
   plugins: [],
 }
