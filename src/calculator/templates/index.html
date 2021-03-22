@@ -10,7 +10,7 @@
 </head>
 
 <body>
-  <div class="main-container hidden">
+  <div class="main-container" id="place-selection">
     <div class="title-container">
       <div class="circle-number">1.</div>
       <h1>Selecciona tu ubicación</h1>
@@ -22,7 +22,7 @@
           Mexico
         </p>
       </div>
-      <div class="map-container" id="mundo">
+      <div class="map-container" id="world">
         <img src="static/vectors/world.svg" alt="Mapa del mundo" class="map-image">
         <p class="text-2xl">
           Mundo
@@ -30,9 +30,10 @@
       </div>
     </div>
   </div>
+
   <div class="main-container mexico">
 
-    <div class="tab hidden">
+    <div class="tab hidden mexico-tabs">
       <div class="title-container">
         <div class="circle-number">2.</div>
         <h1>Ingresa tus datos</h1>
@@ -43,7 +44,7 @@
       </div>
     </div>
     
-    <div class="tab mx-auto h-11/12 w-11/12 md:h-3/5 md:w-3/5">
+    <div class="tab hidden mexico-tabs mx-auto h-11/12 w-11/12 md:h-3/5 md:w-3/5">
       <div class="title-container">
         <div class="circle-number">3.</div>
         <h1>Ingresa tus datos</h1>
@@ -84,5 +85,6 @@
       </svg>
     </div>
   </div>
+  <script src="/static/js/main.js"></script>
 </body>
 </html>
